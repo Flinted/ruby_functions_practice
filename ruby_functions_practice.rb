@@ -97,6 +97,6 @@ def volume_of_cube( side )
 end
 
 def volume_of_sphere( radius )
-  volume = ((radius ** 3 * 3.14) / 3) * 4
+  volume = ((radius ** 3 * 3.14) / 3.0) * 4.0
   return volume.round(2)
 end
