@@ -79,5 +79,4 @@ class Functions_Practice < MiniTest::Test
     assert_equal(33.49, sphere_vol)
   end
 
-
 end
