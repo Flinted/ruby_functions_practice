@@ -91,3 +91,7 @@ def number_to_short_month_name( number_month )
       return "Invalid Month"
   end
 end
+
+def volume_of_cube( measure )
+  return measure ** 3
+end
