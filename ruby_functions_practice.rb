@@ -95,3 +95,8 @@ end
 def volume_of_cube( measure )
   return measure ** 3
 end
+
+def volume_of_sphere( radius )
+  volume = ((radius ** 3 * 3.14) / 3) * 4
+  return volume.round(2)
+end
