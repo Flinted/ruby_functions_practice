@@ -92,8 +92,8 @@ def number_to_short_month_name( number_month )
   end
 end
 
-def volume_of_cube( measure )
-  return measure ** 3
+def volume_of_cube( side )
+  return side ** 3
 end
 
 def volume_of_sphere( radius )
