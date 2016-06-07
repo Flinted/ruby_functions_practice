@@ -100,3 +100,7 @@ def volume_of_sphere( radius )
   volume = ((radius ** 3 * 3.14) / 3.0) * 4.0
   return volume.round(2)
 end
+
+def units_alcohol( volume, percentage )
+  return (volume.to_f * (percentage.to_f))/1000
+end

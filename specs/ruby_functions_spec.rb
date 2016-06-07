@@ -79,4 +79,9 @@ class Functions_Practice < MiniTest::Test
     assert_equal( 33.49, sphere_vol )
   end
 
+  def test_units_alcohol()
+    units = units_alcohol(568,5)
+    assert_equal(2.84, units)
+  end
+
 end
